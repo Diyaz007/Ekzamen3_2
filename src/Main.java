@@ -54,7 +54,6 @@ public class Main {
         if(addPerson == 1){
             people.add(new Person(lastName,firstName,patronymic));
             System.out.println("Человек добавлен.");
-            addPerson = 0;
         }
     }
 }
